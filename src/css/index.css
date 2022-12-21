@@ -2,12 +2,17 @@
 /* @import "credit-card.css";
 @import "form.css"; */
 
+.form {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 2rem;
+}
+
 #app header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 3rem;
-  padding: 1rem;
+  gap: 1rem;
   width: 95%;  
 }
 
@@ -15,35 +20,49 @@ h1, h2 {
  color: #DF6F29;
 }
 
+img {
+  width: 100%;
+  border-radius: 6px 6px 0 0;
+}
+
 h1 {
-  font-size: 2.8rem;
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 2rem;
 }
 
 .select {
   display: flex;
   flex-direction: column;
+  margin-top: 3rem;
 }
 
 .select label {
-  font-size: 2.5rem;
+  margin-top: 1rem;
+  font-size: 2rem;
   color: #DF6F29;
 }
 
 .select select {
   flex: 1;
-  font-size: 2.5rem;
+  font-size: 2rem;
   color: #DF6F29;
+  padding: 1rem 0;
 }
 
 .select-content {
   display: flex;
   gap: 5px;
+  align-itens: center;
 }
 
 .select-content button {
   padding: 0 1rem;
   font-size: 2rem;
-  color: #DF6F29;
+  background: #DF6F29;
+  color: #fff;
   border-radius: 6px;
 }
 

@@ -13,26 +13,52 @@
 
 <body>
   <div id="app">
+    <img src="https://s.zst.com.br/cms-assets/2021/11/enfeites-de-natal.webp" alt="" srcset="">
+    <div class="form">
     <header>
       <h1>Quem será, quem será?</h1>
       <h2>O meu amigo oculto ...</h2>
     </header>
-    <div class="form">
       <div class="select">
         <label for="pet-select">Quantos filhos ele(a) tem:</label>
         <div class="select-content">
-          <select name="pets" id="pet-select">
+          <select id="select-filhos" name="filhos">
             <option value="">--Selecione--</option>
             <option value="0">Nehum filho</option>
             <option value="1">Duas filhas</option>
             <option value="2">Um Filho e uma Filha</option>
           </select>
-          <button>Gravar</button>
+          <button id="btn-select-filhos">Gravar</button>
         </div>
-
       </div>
-
-
+      <div class="select">
+        <label for="pet-select">Qual o hobby dele(a):</label>
+        <div class="select-content">
+          <select id="select-hobby" name="hobby" >
+            <option value="">--Selecione--</option>
+            <option value="desenho">Desenhar</option>
+            <option value="moda">Moda</option>
+            <option value="violao">Tocar violão</option>
+            <option value="livro">Ler livros</option>
+            <option value="cozinhar">cozinhar</option>
+          </select>
+          <button id="btn-select-hobby">Gravar</button>
+        </div>
+      </div>
+      <div class="select">
+        <label for="pet-select">Qual o time dele(a):</label>
+        <div class="select-content">
+          <select id="select-time" name="time" >
+            <option value="">--Selecione--</option>
+            <option value="flu">Fluminense</option>
+            <option value="vasco">Vasco</option>
+            <option value="fla">Falmengo</option>
+            <option value="Inter">Internacional</option>
+          </select>
+          <button id="btn-select-time">Gravar</button>
+        </div>
+      </div>
+    </div>
     </div>
   </div>
   <script type="module" src="/src/main.ts"></script>
