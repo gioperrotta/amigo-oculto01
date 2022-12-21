@@ -15,6 +15,10 @@ h1, h2 {
  color: #DF6F29;
 }
 
+h1 {
+  font-size: 2.8rem;
+}
+
 .select {
   display: flex;
   flex-direction: column;
@@ -27,7 +31,7 @@ h1, h2 {
 
 .select select {
   flex: 1;
-  font-size: 3rem;
+  font-size: 2.5rem;
   color: #DF6F29;
 }
 
