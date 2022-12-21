@@ -53,7 +53,7 @@ btnSelectTeam?.addEventListener('click', () => {
 
   let iconButton = '⛔'
   let colorButton = 'red'
-  if (valueSelectTeam === 'violao') {
+  if (valueSelectTeam === 'inter') {
     iconButton = '✅'
     colorButton = 'green'
   }
@@ -68,7 +68,7 @@ btnSelectTeam?.addEventListener('click', () => {
   if  (valueSelectSons  === 'casal' && valueSelectHobby ==='violao' && valueSelectTeam === 'inter') {
     btnAnswer.disabled = false;
     btnAnswer.style.background = 'green';
-    aAnswer.href='answer.html'
+    aAnswer.href="./src/pages/answer.html"
   } else {
     btnAnswer.disabled = false;
     btnAnswer.style.background = 'red';
