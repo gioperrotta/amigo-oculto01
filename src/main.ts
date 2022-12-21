@@ -68,7 +68,7 @@ btnSelectTeam?.addEventListener('click', () => {
   if  (valueSelectSons  === 'casal' && valueSelectHobby ==='violao' && valueSelectTeam === 'inter') {
     btnAnswer.disabled = false;
     btnAnswer.style.background = 'green';
-    aAnswer.href="./src/pages/answer.html"
+    aAnswer.href="./answer.html"
   } else {
     btnAnswer.disabled = false;
     btnAnswer.style.background = 'red';
