@@ -7,16 +7,45 @@
   flex-direction: column;
   align-items: center;
   gap: 3rem;
-
-  /* border: 1px solid #DF6F29; */
-  padding: 2rem;
-
+  padding: 1rem;
   width: 95%;  
 }
 
 h1, h2 {
  color: #DF6F29;
 }
+
+.select {
+  display: flex;
+  flex-direction: column;
+}
+
+.select label {
+  font-size: 2.5rem;
+  color: #DF6F29;
+}
+
+.select select {
+  flex: 1;
+  font-size: 3rem;
+  color: #DF6F29;
+}
+
+.select-content {
+  display: flex;
+  gap: 5px;
+}
+
+.select-content button {
+  padding: 0 1rem;
+  font-size: 2rem;
+  color: #DF6F29;
+  border-radius: 6px;
+}
+
+
+
+
 
 /* @media (max-width: 420px) {
   :root {
