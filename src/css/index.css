@@ -75,13 +75,13 @@ footer {
 
 footer button {
   width: 100%;
-  flex: 1;
   background: green;
-  font-size: 2.5rem;
+  font-size: 2rem;
   padding: 2rem;
   border-radius: 20px;
   color: white;
-  margin-top: 3rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 

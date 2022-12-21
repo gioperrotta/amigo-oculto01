@@ -3,9 +3,6 @@ let valueSelectSons : string;
 let valueSelectHobby : string;
 let valueSelectTeam : string;
 
-let iconButton = '⛔'
-let colorButton = 'red'
-
 const btnAnswer = document.querySelector('#btn-answer') as HTMLButtonElement
 const aAnswer = document.querySelector('#a-answer') as HTMLLinkElement
 
@@ -14,6 +11,8 @@ const selectSons = document.querySelector('#select-sons') as HTMLSelectElement;
 btnSelectSons?.addEventListener('click', () => {
   valueSelectSons = selectSons.options[selectSons.selectedIndex].value;
 
+  let iconButton = '⛔'
+  let colorButton = 'red'
   if (valueSelectSons === 'casal') {
     iconButton = '✅'
     colorButton = 'green'
@@ -25,7 +24,6 @@ btnSelectSons?.addEventListener('click', () => {
 
   selectSons.style.display = 'none';
   btnSelectSons.style.flex = '1';
-
 })
 
 const btnSelectHobby = document.querySelector('#btn-select-hobby') as HTMLButtonElement;
@@ -33,6 +31,8 @@ const selectHobby = document.querySelector('#select-hobby') as HTMLSelectElement
 btnSelectHobby?.addEventListener('click', () => {
   valueSelectHobby = selectHobby.options[selectHobby.selectedIndex].value;
 
+  let iconButton = '⛔'
+  let colorButton = 'red'
   if (valueSelectHobby === 'violao') {
     iconButton = '✅'
     colorButton = 'green'
@@ -44,7 +44,6 @@ btnSelectHobby?.addEventListener('click', () => {
 
   selectHobby.style.display = 'none';
   btnSelectHobby.style.flex = '1';
-
 })
 
 const btnSelectTeam = document.querySelector('#btn-select-team') as HTMLButtonElement;
@@ -52,6 +51,8 @@ const selectTeam = document.querySelector('#select-team') as HTMLSelectElement;
 btnSelectTeam?.addEventListener('click', () => {
   valueSelectTeam = selectTeam.options[selectTeam.selectedIndex].value;
 
+  let iconButton = '⛔'
+  let colorButton = 'red'
   if (valueSelectTeam === 'violao') {
     iconButton = '✅'
     colorButton = 'green'
