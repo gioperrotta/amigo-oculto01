@@ -1,4 +1,5 @@
-import "./css/index.css"
+//import "./css/index.css"
+import "../public/css/index.css"
 let valueSelectSons : string;
 let valueSelectHobby : string;
 let valueSelectTeam : string;

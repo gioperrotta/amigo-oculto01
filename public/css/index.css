@@ -1,7 +1,5 @@
 @import "base.css";
-
-/* @import "credit-card.css";
-@import "form.css"; */
+@import "answer.css";
 
 .form {
   display: flex;
