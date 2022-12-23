@@ -41,6 +41,7 @@
   font-size: 24px;
   margin-bottom: 16px;
   border-radius: 6px;
+  
 
   transition: background 400ms;
 }
@@ -49,18 +50,18 @@
   background: #FF6F29;
 }
 
-footer {
+/* footer {
   font-size: 12px;
   font-weight: 500;
 
   opacity: 0.6;
   transition: opacity 400ms;
-}
-footer:hover{
+} */
+/* footer:hover{
   opacity: 1;
 }
 footer a {
  color: var(--text-color);
-}
+} */
 
 

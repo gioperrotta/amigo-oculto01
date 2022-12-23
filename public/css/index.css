@@ -69,17 +69,17 @@ footer {
   display: flex;
   justify-content: center;
   padding: 1rem 2rem;
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
 }
 
 footer button {
   width: 100%;
-  background: green;
+  background: gray;
   font-size: 2rem;
   padding: 2rem;
   border-radius: 20px;
   color: white;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
 }
 
 
